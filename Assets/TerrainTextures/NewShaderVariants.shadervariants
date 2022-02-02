@@ -1,0 +1,911 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: NewShaderVariants
+  m_Shaders:
+  - first: {fileID: 64, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: SHADOWS_SPLIT_SPHERES
+        passType: 0
+  - first: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: INSTANCING_ON
+        passType: 0
+  - first: {fileID: 66, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 45, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _EMISSION
+        passType: 4
+      - keywords: DIRECTIONAL
+        passType: 5
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: INSTANCING_ON SHADOWS_DEPTH
+        passType: 8
+  - first: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: DIRECTIONAL INSTANCING_ON LIGHTPROBE_SH _EMISSION
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH SHADOWS_SCREEN _EMISSION _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL
+        passType: 5
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: INSTANCING_ON SHADOWS_DEPTH
+        passType: 8
+      - keywords: INSTANCING_ON _ALBEDOCONTRIBUTION _DISABLE_SSR _DOUBLESIDED_ON
+          _NORMALMAP_TANGENT_SPACE _NORMALMAP_TANGENT_SPACE0 _NORMALMAP_TANGENT_SPACE1
+          _NORMALMAP_TANGENT_SPACE2 _NORMALMAP_TANGENT_SPACE3 _SUNDISK_HIGH_QUALITY
+          _TERRAIN_INSTANCED_PERPIXEL_NORMAL
+        passType: 8
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          USE_CLUSTERED_LIGHTLIST _DISABLE_SSR _EMISSION _NORMALMAP
+        passType: 8
+  - first: {fileID: 47, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: INSTANCING_ON SHADOWS_DEPTH
+        passType: 8
+      - keywords: INSTANCING_ON _ALBEDOCONTRIBUTION _DISABLE_SSR _DOUBLESIDED_ON
+          _NORMALMAP_TANGENT_SPACE _NORMALMAP_TANGENT_SPACE0 _NORMALMAP_TANGENT_SPACE1
+          _NORMALMAP_TANGENT_SPACE2 _NORMALMAP_TANGENT_SPACE3 _SUNDISK_HIGH_QUALITY
+          _TERRAIN_INSTANCED_PERPIXEL_NORMAL
+        passType: 8
+      - keywords: INSTANCING_ON _DISABLE_SSR _EMISSION _NORMALMAP
+        passType: 8
+  - first: {fileID: 2, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: INSTANCING_ON _ALBEDOCONTRIBUTION _DISABLE_SSR _DOUBLESIDED_ON
+          _NORMALMAP_TANGENT_SPACE _NORMALMAP_TANGENT_SPACE0 _NORMALMAP_TANGENT_SPACE1
+          _NORMALMAP_TANGENT_SPACE2 _NORMALMAP_TANGENT_SPACE3 _SUNDISK_HIGH_QUALITY
+          _TERRAIN_INSTANCED_PERPIXEL_NORMAL
+        passType: 8
+  - first: {fileID: 101, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 106, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          USE_CLUSTERED_LIGHTLIST
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          USE_CLUSTERED_LIGHTLIST _SUNDISK_SIMPLE
+        passType: 0
+      - keywords: _SUNDISK_HIGH_QUALITY
+        passType: 0
+  - first: {fileID: 210, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: INSTANCING_ON SHADOWS_DEPTH
+        passType: 8
+      - keywords: INSTANCING_ON _DISABLE_SSR
+        passType: 8
+  - first: {fileID: 211, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: INSTANCING_ON SHADOWS_DEPTH
+        passType: 8
+      - keywords: PROCEDURAL_INSTANCING_ON SHADOWS_DEPTH
+        passType: 8
+  - first: {fileID: 10505, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: INSTANCING_ON _ALBEDOCONTRIBUTION _DISABLE_SSR _DOUBLESIDED_ON
+          _NORMALMAP_TANGENT_SPACE _NORMALMAP_TANGENT_SPACE0 _NORMALMAP_TANGENT_SPACE1
+          _NORMALMAP_TANGENT_SPACE2 _NORMALMAP_TANGENT_SPACE3 _TERRAIN_INSTANCED_PERPIXEL_NORMAL
+        passType: 8
+  - first: {fileID: 9000, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9001, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9002, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9003, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9004, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9006, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9007, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 10511, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+  - first: {fileID: 10601, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+  - first: {fileID: 10620, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: _LIGHTMAPPING_BAKED _LIGHTMAPPING_STATIC_LIGHTMAPS _SUNDISK_HIGH_QUALITY
+          _UVPRIM_UV1 _UVSEC_UV1
+        passType: 8
+  - first: {fileID: 10623, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: INSTANCING_ON _ALBEDOCONTRIBUTION _DISABLE_SSR _DOUBLESIDED_ON
+          _NORMALMAP_TANGENT_SPACE _NORMALMAP_TANGENT_SPACE0 _NORMALMAP_TANGENT_SPACE1
+          _NORMALMAP_TANGENT_SPACE2 _NORMALMAP_TANGENT_SPACE3 _TERRAIN_INSTANCED_PERPIXEL_NORMAL
+        passType: 8
+  - first: {fileID: 10700, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 10704, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+  - first: {fileID: 10705, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: _DISABLE_SSR
+        passType: 8
+  - first: {fileID: 10720, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 10721, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 10723, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 10750, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 10751, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT LIGHTPROBE_SH MATERIAL_QUALITY_HIGH
+          SHADOW_MEDIUM USE_FPTL_LIGHTLIST
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT LIGHTPROBE_SH MATERIAL_QUALITY_HIGH
+          SHADOW_MEDIUM UNITY_HDR_ON USE_FPTL_LIGHTLIST
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT EFFECT_BUMP EFFECT_HUE_VARIATION
+          LIGHTPROBE_SH MATERIAL_QUALITY_HIGH SHADOW_MEDIUM USE_FPTL_LIGHTLIST
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT EFFECT_BUMP EFFECT_HUE_VARIATION
+          LIGHTPROBE_SH MATERIAL_QUALITY_HIGH SHADOW_MEDIUM UNITY_HDR_ON USE_FPTL_LIGHTLIST
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT EFFECT_BUMP EFFECT_HUE_VARIATION
+          LIGHTPROBE_SH LOD_FADE_CROSSFADE MATERIAL_QUALITY_HIGH SHADOW_MEDIUM USE_FPTL_LIGHTLIST
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT EFFECT_BUMP EFFECT_HUE_VARIATION
+          GEOM_TYPE_LEAF LIGHTPROBE_SH MATERIAL_QUALITY_HIGH SHADOW_MEDIUM USE_FPTL_LIGHTLIST
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT EFFECT_BUMP EFFECT_HUE_VARIATION
+          GEOM_TYPE_LEAF LIGHTPROBE_SH MATERIAL_QUALITY_HIGH SHADOW_MEDIUM UNITY_HDR_ON
+          USE_FPTL_LIGHTLIST
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT EFFECT_BUMP EFFECT_HUE_VARIATION
+          GEOM_TYPE_LEAF LIGHTPROBE_SH LOD_FADE_CROSSFADE MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          USE_FPTL_LIGHTLIST
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT EFFECT_BUMP EFFECT_HUE_VARIATION
+          GEOM_TYPE_BRANCH LIGHTPROBE_SH MATERIAL_QUALITY_HIGH SHADOW_MEDIUM USE_FPTL_LIGHTLIST
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT EFFECT_BUMP EFFECT_HUE_VARIATION
+          GEOM_TYPE_BRANCH LIGHTPROBE_SH LOD_FADE_CROSSFADE MATERIAL_QUALITY_HIGH
+          SHADOW_MEDIUM USE_FPTL_LIGHTLIST
+        passType: 0
+  - first: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 10755, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 10757, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 10783, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 14001, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+  - first: {fileID: 15300, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 15301, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 6e4ae4064600d784cac1e41a9e6f2e59, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: _NORMALMAP_TANGENT_SPACE
+        passType: 8
+      - keywords: _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE
+        passType: 8
+      - keywords: _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE
+        passType: 8
+      - keywords: _NORMALMAP
+        passType: 8
+      - keywords: _DISABLE_SSR _NORMALMAP_TANGENT_SPACE
+        passType: 8
+      - keywords: INSTANCING_ON _DISABLE_SSR _NORMALMAP_TANGENT_SPACE
+        passType: 8
+      - keywords: _MATERIAL_FEATURE_CLEAR_COAT _NORMALMAP_TANGENT_SPACE
+        passType: 8
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          USE_CLUSTERED_LIGHTLIST
+        passType: 12
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          USE_CLUSTERED_LIGHTLIST _NORMALMAP_TANGENT_SPACE
+        passType: 12
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          USE_CLUSTERED_LIGHTLIST _MATERIAL_FEATURE_CLEAR_COAT _NORMALMAP_TANGENT_SPACE
+        passType: 12
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          USE_CLUSTERED_LIGHTLIST
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT LIGHTPROBE_SH MATERIAL_QUALITY_HIGH
+          SHADOW_MEDIUM USE_CLUSTERED_LIGHTLIST
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          UNITY_HDR_ON USE_CLUSTERED_LIGHTLIST
+        passType: 13
+      - keywords: DECALS_3RT _NORMALMAP_TANGENT_SPACE
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          _NORMALMAP_TANGENT_SPACE
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT LIGHTPROBE_SH MATERIAL_QUALITY_HIGH
+          SHADOW_MEDIUM _NORMALMAP_TANGENT_SPACE
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          USE_CLUSTERED_LIGHTLIST _NORMALMAP_TANGENT_SPACE
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT LIGHTPROBE_SH MATERIAL_QUALITY_HIGH
+          SHADOW_MEDIUM USE_CLUSTERED_LIGHTLIST _NORMALMAP_TANGENT_SPACE
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          UNITY_HDR_ON USE_CLUSTERED_LIGHTLIST _NORMALMAP_TANGENT_SPACE
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT LIGHTPROBE_SH MATERIAL_QUALITY_HIGH
+          SHADOW_MEDIUM UNITY_HDR_ON USE_CLUSTERED_LIGHTLIST _NORMALMAP_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_3RT _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE
+        passType: 13
+      - keywords: _DISABLE_SSR _NORMALMAP_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_3RT _DISABLE_SSR _NORMALMAP_TANGENT_SPACE
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          _MATERIAL_FEATURE_CLEAR_COAT _NORMALMAP_TANGENT_SPACE
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          USE_CLUSTERED_LIGHTLIST _MATERIAL_FEATURE_CLEAR_COAT _NORMALMAP_TANGENT_SPACE
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT LIGHTPROBE_SH MATERIAL_QUALITY_HIGH
+          SHADOW_MEDIUM USE_CLUSTERED_LIGHTLIST _MATERIAL_FEATURE_CLEAR_COAT _NORMALMAP_TANGENT_SPACE
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          UNITY_HDR_ON USE_CLUSTERED_LIGHTLIST _MATERIAL_FEATURE_CLEAR_COAT _NORMALMAP_TANGENT_SPACE
+        passType: 13
+  - first: {fileID: 4800000, guid: 2fcfb8d92f45e4549b3f0bad5d0654bf, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          USE_CLUSTERED_LIGHTLIST
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          UNITY_HDR_ON USE_CLUSTERED_LIGHTLIST
+        passType: 0
+  - first: {fileID: 4800000, guid: 02ae56f4306413c4a96dcf005cde1971, type: 3}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          USE_CLUSTERED_LIGHTLIST
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          UNITY_HDR_ON USE_CLUSTERED_LIGHTLIST
+        passType: 0
+  - first: {fileID: 4800000, guid: 2e37131331fbdca449b1a2bc47a639ca, type: 3}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          USE_FPTL_LIGHTLIST
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          UNITY_HDR_ON USE_FPTL_LIGHTLIST
+        passType: 0
+  - first: {fileID: 4800000, guid: 035941b63024d1943af48811c1db20d9, type: 3}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          USE_CLUSTERED_LIGHTLIST
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          UNITY_HDR_ON USE_CLUSTERED_LIGHTLIST
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS DEBUG_DISPLAY DECALS_3RT MATERIAL_QUALITY_HIGH
+          SHADOW_MEDIUM USE_CLUSTERED_LIGHTLIST
+        passType: 0
+  - first: {fileID: 4800000, guid: 8ea49ef16606acd489439e676ab84040, type: 3}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          USE_FPTL_LIGHTLIST
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          UNITY_HDR_ON USE_FPTL_LIGHTLIST
+        passType: 0
+  - first: {fileID: 4800000, guid: 42dfcc8fe803ece4096c58630689982f, type: 3}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          USE_CLUSTERED_LIGHTLIST
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          UNITY_HDR_ON USE_CLUSTERED_LIGHTLIST
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS DEBUG_DISPLAY DECALS_3RT MATERIAL_QUALITY_HIGH
+          SHADOW_MEDIUM USE_CLUSTERED_LIGHTLIST
+        passType: 0
+  - first: {fileID: 4800000, guid: 370f7a9cc4e362d488af024d371091e8, type: 3}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          USE_CLUSTERED_LIGHTLIST
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          UNITY_HDR_ON USE_CLUSTERED_LIGHTLIST
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS DEBUG_DISPLAY DECALS_3RT MATERIAL_QUALITY_HIGH
+          SHADOW_MEDIUM USE_CLUSTERED_LIGHTLIST
+        passType: 0
+  - first: {fileID: 4800000, guid: 67d6171b0acc6554aad48c845ec7e67f, type: 3}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS CHECKERBOARD_DOWNSAMPLE DECALS_3RT MATERIAL_QUALITY_HIGH
+          SHADOW_MEDIUM USE_CLUSTERED_LIGHTLIST
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS CHECKERBOARD_DOWNSAMPLE DECALS_3RT MATERIAL_QUALITY_HIGH
+          SHADOW_MEDIUM UNITY_HDR_ON USE_CLUSTERED_LIGHTLIST
+        passType: 0
+  - first: {fileID: 4800000, guid: 2ad7ce40f0dbaf64dadef1f58d8524d3, type: 3}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH NEAREST_DEPTH
+          SHADOW_MEDIUM USE_CLUSTERED_LIGHTLIST
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH NEAREST_DEPTH
+          SHADOW_MEDIUM UNITY_HDR_ON USE_CLUSTERED_LIGHTLIST
+        passType: 0
+  - first: {fileID: 4800000, guid: 123ed592ad5c2494b8aed301fd609e7b, type: 3}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          USE_CLUSTERED_LIGHTLIST
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          UNITY_HDR_ON USE_CLUSTERED_LIGHTLIST
+        passType: 0
+  - first: {fileID: 4800000, guid: 9bd32a6ece529fd4f9408b8d7e00c10d, type: 3}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          USE_CLUSTERED_LIGHTLIST
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          UNITY_HDR_ON USE_CLUSTERED_LIGHTLIST
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          USE_FPTL_LIGHTLIST
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          UNITY_HDR_ON USE_FPTL_LIGHTLIST
+        passType: 0
+  - first: {fileID: 4800000, guid: 123f13d52852ef547b2962de4bd9eaad, type: 3}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS SHADOW_MEDIUM
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          USE_CLUSTERED_LIGHTLIST
+        passType: 0
+  - first: {fileID: 4800000, guid: 3b3bf235775cf8b4baae7f3306787ab0, type: 3}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS SHADOW_MEDIUM
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          USE_CLUSTERED_LIGHTLIST
+        passType: 0
+  - first: {fileID: 4800000, guid: d279c46a545b0af4f9f0c4fa82cd489e, type: 3}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS SHADOW_MEDIUM
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          USE_CLUSTERED_LIGHTLIST
+        passType: 0
+  - first: {fileID: 4800000, guid: a6402c19b020b4a4fb7073aaa2e26aba, type: 3}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS SHADOW_MEDIUM
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          USE_CLUSTERED_LIGHTLIST
+        passType: 0
+  - first: {fileID: 4800000, guid: c243aac96dda5fa40bed693ed5ba02c4, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: e3cab24f27741f44d8af1e94d006267c, type: 3}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          USE_CLUSTERED_LIGHTLIST
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          UNITY_HDR_ON USE_CLUSTERED_LIGHTLIST
+        passType: 0
+  - first: {fileID: 4800000, guid: fd532bf1795188c4daaa66ea798b8b0a, type: 3}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          USE_CLUSTERED_LIGHTLIST
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          UNITY_HDR_ON USE_CLUSTERED_LIGHTLIST
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS DEBUG_DISPLAY DECALS_3RT MATERIAL_QUALITY_HIGH
+          SHADOW_MEDIUM USE_CLUSTERED_LIGHTLIST
+        passType: 0
+  - first: {fileID: 4800000, guid: 5ac9ef0c50282754b93c7692488e7ee7, type: 3}
+    second:
+      variants:
+      - keywords: APPLY_AFTER_POST BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH
+          SHADOW_MEDIUM USE_CLUSTERED_LIGHTLIST
+        passType: 0
+      - keywords: APPLY_AFTER_POST BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH
+          SHADOW_MEDIUM UNITY_HDR_ON USE_CLUSTERED_LIGHTLIST
+        passType: 0
+      - keywords: APPLY_AFTER_POST BILLBOARD_FACE_CAMERA_POS DEBUG_DISPLAY DECALS_3RT
+          MATERIAL_QUALITY_HIGH SHADOW_MEDIUM USE_CLUSTERED_LIGHTLIST
+        passType: 0
+      - keywords: APPLY_AFTER_POST BILLBOARD_FACE_CAMERA_POS DECALS_3RT DITHER MATERIAL_QUALITY_HIGH
+          SHADOW_MEDIUM USE_CLUSTERED_LIGHTLIST
+        passType: 0
+      - keywords: APPLY_AFTER_POST BILLBOARD_FACE_CAMERA_POS DECALS_3RT DITHER MATERIAL_QUALITY_HIGH
+          SHADOW_MEDIUM UNITY_HDR_ON USE_CLUSTERED_LIGHTLIST
+        passType: 0
+  - first: {fileID: 4800000, guid: 3330c1503ea8c6d4d9408df3f64227eb, type: 3}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          USE_CLUSTERED_LIGHTLIST
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          UNITY_HDR_ON USE_CLUSTERED_LIGHTLIST
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS DEBUG_DISPLAY DECALS_3RT MATERIAL_QUALITY_HIGH
+          SHADOW_MEDIUM USE_CLUSTERED_LIGHTLIST
+        passType: 0
+  - first: {fileID: 4800000, guid: d22a37b5c800a0040a87b2a58de74e13, type: 3}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          USE_CLUSTERED_LIGHTLIST
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          UNITY_HDR_ON USE_CLUSTERED_LIGHTLIST
+        passType: 0
+  - first: {fileID: 4800000, guid: 81d02e8644315b742b154842a3a2f98c, type: 3}
+    second:
+      variants:
+      - keywords: _NORMALMAP_TANGENT_SPACE0 _NORMALMAP_TANGENT_SPACE1 _NORMALMAP_TANGENT_SPACE2
+          _NORMALMAP_TANGENT_SPACE3
+        passType: 8
+      - keywords: _DISABLE_SSR _NORMALMAP_TANGENT_SPACE0 _NORMALMAP_TANGENT_SPACE1
+          _NORMALMAP_TANGENT_SPACE2 _NORMALMAP_TANGENT_SPACE3
+        passType: 8
+      - keywords: INSTANCING_ON _DISABLE_SSR _NORMALMAP_TANGENT_SPACE0 _NORMALMAP_TANGENT_SPACE1
+          _NORMALMAP_TANGENT_SPACE2 _NORMALMAP_TANGENT_SPACE3
+        passType: 8
+      - keywords: DECALS_3RT _NORMALMAP_TANGENT_SPACE0 _NORMALMAP_TANGENT_SPACE1
+          _NORMALMAP_TANGENT_SPACE2 _NORMALMAP_TANGENT_SPACE3
+        passType: 13
+      - keywords: _DISABLE_SSR _NORMALMAP_TANGENT_SPACE0 _NORMALMAP_TANGENT_SPACE1
+          _NORMALMAP_TANGENT_SPACE2 _NORMALMAP_TANGENT_SPACE3
+        passType: 13
+      - keywords: DECALS_3RT _DISABLE_SSR _NORMALMAP_TANGENT_SPACE0 _NORMALMAP_TANGENT_SPACE1
+          _NORMALMAP_TANGENT_SPACE2 _NORMALMAP_TANGENT_SPACE3
+        passType: 13
+  - first: {fileID: 4800000, guid: 73be0053604e1d54388db4f32739a92f, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: c4edd00ff2db5b24391a4fcb1762e459, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: INSTANCING_ON
+        passType: 8
+      - keywords: _BLENDMODE_ALPHA _SURFACE_TYPE_TRANSPARENT
+        passType: 8
+      - keywords: 
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          USE_CLUSTERED_LIGHTLIST _BLENDMODE_ALPHA _SURFACE_TYPE_TRANSPARENT
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          UNITY_HDR_ON USE_CLUSTERED_LIGHTLIST _BLENDMODE_ALPHA _SURFACE_TYPE_TRANSPARENT
+        passType: 13
+  - first: {fileID: 4800000, guid: 6510c57cccce5674092bdc0dd1ae98c1, type: 3}
+    second:
+      variants:
+      - keywords: _AXF_BRDF_TYPE_SVBRDF
+        passType: 8
+      - keywords: INSTANCING_ON _AXF_BRDF_TYPE_SVBRDF
+        passType: 8
+      - keywords: _AXF_BRDF_TYPE_SVBRDF _DISABLE_SSR
+        passType: 8
+      - keywords: INSTANCING_ON _AXF_BRDF_TYPE_SVBRDF _DISABLE_SSR
+        passType: 8
+      - keywords: _AXF_BRDF_TYPE_SVBRDF
+        passType: 13
+      - keywords: DECALS_3RT SHADOW_MEDIUM USE_FPTL_LIGHTLIST _AXF_BRDF_TYPE_SVBRDF
+        passType: 13
+      - keywords: _AXF_BRDF_TYPE_SVBRDF _DISABLE_SSR
+        passType: 13
+      - keywords: DECALS_3RT SHADOW_MEDIUM USE_FPTL_LIGHTLIST _AXF_BRDF_TYPE_SVBRDF
+          _DISABLE_SSR
+        passType: 13
+  - first: {fileID: 4800000, guid: 756bac9090102564582875f4c7e30202, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: _NORMALMAP_TANGENT_SPACE
+        passType: 8
+      - keywords: _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _TESSELLATION_DISPLACEMENT
+          _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE
+        passType: 8
+      - keywords: _DISPLACEMENT_LOCK_TILING_SCALE _MASKMAP _NORMALMAP _NORMALMAP_TANGENT_SPACE
+          _TESSELLATION_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE
+        passType: 8
+      - keywords: INSTANCING_ON _DISABLE_SSR
+        passType: 8
+      - keywords: _DISABLE_SSR _NORMALMAP_TANGENT_SPACE
+        passType: 8
+      - keywords: INSTANCING_ON _DISABLE_SSR _NORMALMAP_TANGENT_SPACE
+        passType: 8
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          USE_CLUSTERED_LIGHTLIST _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE
+          _TESSELLATION_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE
+        passType: 12
+      - keywords: DECALS_3RT _NORMALMAP_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_3RT _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE
+          _TESSELLATION_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _TESSELLATION_DISPLACEMENT
+          _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          USE_CLUSTERED_LIGHTLIST _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE
+          _TESSELLATION_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT LIGHTPROBE_SH MATERIAL_QUALITY_HIGH
+          SHADOW_MEDIUM USE_CLUSTERED_LIGHTLIST _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE
+          _TESSELLATION_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          UNITY_HDR_ON USE_CLUSTERED_LIGHTLIST _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE
+          _TESSELLATION_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          _DISPLACEMENT_LOCK_TILING_SCALE _MASKMAP _NORMALMAP _NORMALMAP_TANGENT_SPACE
+          _TESSELLATION_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          USE_CLUSTERED_LIGHTLIST _DISPLACEMENT_LOCK_TILING_SCALE _MASKMAP _NORMALMAP
+          _NORMALMAP_TANGENT_SPACE _TESSELLATION_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT LIGHTPROBE_SH MATERIAL_QUALITY_HIGH
+          SHADOW_MEDIUM USE_CLUSTERED_LIGHTLIST _DISPLACEMENT_LOCK_TILING_SCALE _MASKMAP
+          _NORMALMAP _NORMALMAP_TANGENT_SPACE _TESSELLATION_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          UNITY_HDR_ON USE_CLUSTERED_LIGHTLIST _DISPLACEMENT_LOCK_TILING_SCALE _MASKMAP
+          _NORMALMAP _NORMALMAP_TANGENT_SPACE _TESSELLATION_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT LIGHTPROBE_SH MATERIAL_QUALITY_HIGH
+          SHADOW_MEDIUM UNITY_HDR_ON USE_CLUSTERED_LIGHTLIST _DISPLACEMENT_LOCK_TILING_SCALE
+          _MASKMAP _NORMALMAP _NORMALMAP_TANGENT_SPACE _TESSELLATION_DISPLACEMENT
+          _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE
+        passType: 13
+      - keywords: _DISABLE_SSR _NORMALMAP_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_3RT _DISABLE_SSR _NORMALMAP_TANGENT_SPACE
+        passType: 13
+  - first: {fileID: 4800000, guid: 263f12c7593cf8841b5ccdbb717e3389, type: 3}
+    second:
+      variants:
+      - keywords: _MASKMAP _NORMALMAP _TERRAIN_8_LAYERS _TERRAIN_INSTANCED_PERPIXEL_NORMAL
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          USE_CLUSTERED_LIGHTLIST _MASKMAP _NORMALMAP _TERRAIN_8_LAYERS _TERRAIN_INSTANCED_PERPIXEL_NORMAL
+        passType: 0
+  - first: {fileID: 4800000, guid: 08967e1a353252242a0c4cfc66ced645, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: 3818b9ab8df317a4283de6940b594723, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: e96e3b8a4797c8f47b7ae6759a3e66af, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: _TERRAIN_INSTANCED_PERPIXEL_NORMAL
+        passType: 8
+  - first: {fileID: 4800000, guid: eab0538d9d5746246806a9611c04ac4d, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: _DISPLACEMENT_LOCK_TILING_SCALE
+        passType: 8
+      - keywords: _NORMALMAP_TANGENT_SPACE0 _NORMALMAP_TANGENT_SPACE1 _NORMALMAP_TANGENT_SPACE2
+          _NORMALMAP_TANGENT_SPACE3
+        passType: 8
+      - keywords: INSTANCING_ON _DISABLE_SSR
+        passType: 8
+      - keywords: _DISABLE_SSR _NORMALMAP_TANGENT_SPACE0 _NORMALMAP_TANGENT_SPACE1
+          _NORMALMAP_TANGENT_SPACE2 _NORMALMAP_TANGENT_SPACE3
+        passType: 8
+      - keywords: INSTANCING_ON _DISABLE_SSR _NORMALMAP_TANGENT_SPACE0 _NORMALMAP_TANGENT_SPACE1
+          _NORMALMAP_TANGENT_SPACE2 _NORMALMAP_TANGENT_SPACE3
+        passType: 8
+      - keywords: DECALS_3RT _NORMALMAP_TANGENT_SPACE0 _NORMALMAP_TANGENT_SPACE1
+          _NORMALMAP_TANGENT_SPACE2 _NORMALMAP_TANGENT_SPACE3
+        passType: 13
+      - keywords: _DISABLE_SSR _NORMALMAP_TANGENT_SPACE0 _NORMALMAP_TANGENT_SPACE1
+          _NORMALMAP_TANGENT_SPACE2 _NORMALMAP_TANGENT_SPACE3
+        passType: 13
+      - keywords: DECALS_3RT _DISABLE_SSR _NORMALMAP_TANGENT_SPACE0 _NORMALMAP_TANGENT_SPACE1
+          _NORMALMAP_TANGENT_SPACE2 _NORMALMAP_TANGENT_SPACE3
+        passType: 13
+  - first: {fileID: 4800000, guid: eb607f5e8fc16e140b732f33d26c8c31, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: INSTANCING_ON
+        passType: 8
+      - keywords: _NORMALMAP
+        passType: 8
+      - keywords: _TERRAIN_INSTANCED_PERPIXEL_NORMAL
+        passType: 8
+      - keywords: INSTANCING_ON _TERRAIN_INSTANCED_PERPIXEL_NORMAL
+        passType: 8
+      - keywords: _NORMALMAP _TERRAIN_INSTANCED_PERPIXEL_NORMAL
+        passType: 8
+      - keywords: _MASKMAP _NORMALMAP _TERRAIN_8_LAYERS _TERRAIN_INSTANCED_PERPIXEL_NORMAL
+        passType: 8
+      - keywords: _TERRAIN_INSTANCED_PERPIXEL_NORMAL
+        passType: 13
+      - keywords: DECALS_3RT _TERRAIN_INSTANCED_PERPIXEL_NORMAL
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          UNITY_HDR_ON USE_CLUSTERED_LIGHTLIST _TERRAIN_INSTANCED_PERPIXEL_NORMAL
+        passType: 13
+      - keywords: DECALS_3RT _NORMALMAP _TERRAIN_INSTANCED_PERPIXEL_NORMAL
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          _MASKMAP _NORMALMAP _TERRAIN_8_LAYERS _TERRAIN_INSTANCED_PERPIXEL_NORMAL
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT LIGHTPROBE_SH MATERIAL_QUALITY_HIGH
+          SHADOW_MEDIUM _MASKMAP _NORMALMAP _TERRAIN_8_LAYERS _TERRAIN_INSTANCED_PERPIXEL_NORMAL
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          USE_CLUSTERED_LIGHTLIST _MASKMAP _NORMALMAP _TERRAIN_8_LAYERS _TERRAIN_INSTANCED_PERPIXEL_NORMAL
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT LIGHTPROBE_SH MATERIAL_QUALITY_HIGH
+          SHADOW_MEDIUM USE_CLUSTERED_LIGHTLIST _MASKMAP _NORMALMAP _TERRAIN_8_LAYERS
+          _TERRAIN_INSTANCED_PERPIXEL_NORMAL
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          UNITY_HDR_ON USE_CLUSTERED_LIGHTLIST _MASKMAP _NORMALMAP _TERRAIN_8_LAYERS
+          _TERRAIN_INSTANCED_PERPIXEL_NORMAL
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT LIGHTPROBE_SH MATERIAL_QUALITY_HIGH
+          SHADOW_MEDIUM UNITY_HDR_ON USE_CLUSTERED_LIGHTLIST _MASKMAP _NORMALMAP
+          _TERRAIN_8_LAYERS _TERRAIN_INSTANCED_PERPIXEL_NORMAL
+        passType: 13
+  - first: {fileID: 4800000, guid: 1d64af84bdc970c4fae0c1e06dd95b73, type: 3}
+    second:
+      variants:
+      - keywords: _ALBEDOCONTRIBUTION
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          USE_CLUSTERED_LIGHTLIST _ALBEDOCONTRIBUTION
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS DECALS_3RT MATERIAL_QUALITY_HIGH SHADOW_MEDIUM
+          UNITY_HDR_ON USE_CLUSTERED_LIGHTLIST _ALBEDOCONTRIBUTION
+        passType: 13
+  - first: {fileID: 4800000, guid: 7252379db4c18b641b517f2c91bb57e1, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: INSTANCING_ON
+        passType: 8
+      - keywords: 
+        passType: 13
+      - keywords: DECALS_3RT
+        passType: 13
+  - first: {fileID: 4800000, guid: 29c4adff654862b40a2e9fb2015a42c3, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: INSTANCING_ON
+        passType: 8
+      - keywords: DECALS_3RT SHADOW_MEDIUM
+        passType: 13
+  - first: {fileID: 4800000, guid: ee2ce0be66f45d9449d71ba9b49c2acd, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: INSTANCING_ON
+        passType: 8
+      - keywords: DECALS_3RT SHADOW_MEDIUM
+        passType: 13
+  - first: {fileID: -6465566751694194690, guid: aefc63699cf4eff49a6bbb7c9ef5d160,
+      type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: INSTANCING_ON
+        passType: 8
+      - keywords: 
+        passType: 13
+      - keywords: DECALS_3RT SHADOW_MEDIUM USE_FPTL_LIGHTLIST
+        passType: 13
+  - first: {fileID: -6465566751694194690, guid: c28bb37ced75c094faa86ea19e772801,
+      type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: INSTANCING_ON
+        passType: 8
+      - keywords: 
+        passType: 13
+      - keywords: DECALS_3RT SHADOW_MEDIUM USE_FPTL_LIGHTLIST
+        passType: 13
+  - first: {fileID: 4800000, guid: d14c98179b516404284c7ecbdc897dd7, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+  - first: {fileID: 4800000, guid: 4a77c3f4c097ec84d863a31f9e75efb9, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: INSTANCING_ON SHADOWS_DEPTH
+        passType: 8
+  - first: {fileID: 4800000, guid: 6f274af305af8c14c8e6091aefa44953, type: 3}
+    second:
+      variants:
+      - keywords: INSTANCING_ON SHADOWS_DEPTH
+        passType: 8
+  - first: {fileID: 4800000, guid: c0ace1ca4bc0718448acf798c93d52d9, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
